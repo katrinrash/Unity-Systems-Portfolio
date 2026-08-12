@@ -24,6 +24,7 @@ The systems were designed as reusable gameplay modules that can be integrated in
   - currently selected character.
 - Built the Shop UI using **Unity UI Toolkit**.
 - Implemented dynamic generation of character shop cells based on the available character data.
+- Integrated new character skins with the animation system using Sprite Library and Sprite Resolver, allowing skins to share the same animation setup.
 
 ### Life System
 
