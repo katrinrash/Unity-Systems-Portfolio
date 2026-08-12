@@ -7,7 +7,6 @@ The systems were designed as reusable gameplay modules that can be integrated in
 
 - Unity / C#
 - Unity UI Toolkit
-- GitHub
 
 ## My Contributions:
 
