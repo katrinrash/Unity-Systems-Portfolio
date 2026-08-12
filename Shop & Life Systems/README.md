@@ -32,11 +32,7 @@ The systems were designed as reusable gameplay modules that can be integrated in
 - Implemented health loss and life restoration.
 - Used an **event-driven approach** to communicate health changes between gameplay and UI systems.
 - Created a dynamically generated heart UI based on the configured number of lives.
-- Implemented a Game Over flow with:
-  - Retry
-  - Watch Video / +1 Life
-  - Main Menu
-- Added gameplay pausing when all lives are lost.
+- Implemented a Game Over flow.
 
 ## What I Learned:
 
