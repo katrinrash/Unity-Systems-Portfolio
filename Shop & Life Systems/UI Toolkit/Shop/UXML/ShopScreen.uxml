@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Shop/ShopStyle.uss?fileID=7433441132597879392&amp;guid=cc098f707797dac42922f0f6755ae576&amp;type=3#ShopStyle" />
+    <ui:VisualElement name="root" class="shop-root">
+        <ui:VisualElement name="shopView" class="shop-view">
+            <ui:VisualElement name="header" class="shop-header">
+                <ui:Label name="coinsLabel" text="Coins: 3" class="coins-label" />
+                <ui:Button name="closeButton" text="X" class="close-button" />
+            </ui:VisualElement>
+            <ui:ScrollView name="skinScroll" class="skin-scroll">
+                <ui:VisualElement name="skinGrid" class="skin-grid" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

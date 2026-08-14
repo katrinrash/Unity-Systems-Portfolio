@@ -1,0 +1,78 @@
+.hearts-container
+{
+    position: absolute;
+
+    left: 40px;
+    bottom: 40px;
+
+    flex-direction: row;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.lose-popup
+{
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    translate: -50% -50%;
+
+    width: 75%;
+    height: 30%;
+
+    display: none;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: rgba(223, 246, 245, 0.8);
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.lose-title
+{
+    font-size: 50px;
+    margin-bottom: 40px;
+
+    -unity-text-align: middle-center;
+    color: rgb(67, 74, 95);
+    -unity-font-style: bold;
+}
+
+.icon-button
+{
+    width: 125px;
+    height: 120px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.reward-button
+{
+    width: 160px;
+    height: 160px;
+
+    margin-bottom: 40px;
+}
+
+.bottom-buttons
+{
+    width: 100%;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 100px;
+    padding-right: 100px;
+
+    margin-top: auto;
+}

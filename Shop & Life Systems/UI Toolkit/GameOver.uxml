@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/GameOverStyle.uss?fileID=7433441132597879392&amp;guid=342e553f563782342bda0aba95ec26f8&amp;type=3#GameOverStyle" />
+    <ui:VisualElement name="HeartsContainer" class="hearts-container" />
+    <ui:VisualElement name="LosePopup" class="lose-popup">
+        <ui:Label name="LoseTitle" text="Continue?" class="lose-title" />
+        <ui:Button name="RewardButton" class="icon-button reward-button" style="border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; background-image: url(&quot;project://database/Assets/Sprites/ExternalIcons/tv-monitor.png?fileID=2800000&amp;guid=fc9e9fbed929b7e4b884498e409af892&amp;type=3#tv-monitor&quot;); background-color: rgba(228, 228, 228, 0);" />
+        <ui:VisualElement name="BottomButtons" class="bottom-buttons">
+            <ui:Button name="RestartButton" class="icon-button" style="background-image: url(&quot;project://database/Assets/Sprites/ExternalIcons/refresh-arrow.png?fileID=2800000&amp;guid=df5520613f46bc943bfaf1ea21ec46fb&amp;type=3#refresh-arrow&quot;); background-color: rgba(255, 255, 255, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+            <ui:Button name="BackButton" class="icon-button" style="background-image: url(&quot;project://database/Assets/Sprites/ExternalIcons/home-icon-silhouette.png?fileID=2800000&amp;guid=0d8328b969a29bd4cb3f7ed1071fd6b7&amp;type=3#home-icon-silhouette&quot;); background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

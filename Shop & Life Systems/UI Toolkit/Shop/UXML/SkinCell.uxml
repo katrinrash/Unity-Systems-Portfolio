@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Shop/USS/SkinCellStyle.uss?fileID=7433441132597879392&amp;guid=8b4695e637c7a8e48abbdabcb2793904&amp;type=3#SkinCellStyle" />
+    <ui:VisualElement name="root" class="skin-cell">
+        <ui:Image name="icon" class="skin-icon" />
+        <ui:VisualElement name="labelBox" class="label-box">
+            <ui:Label name="costLabel" text="Selected" class="cost-label" style="top: 0; right: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="buttonBox" class="button-box">
+            <ui:Button name="actionButton" class="skin-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
