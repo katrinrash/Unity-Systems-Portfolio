@@ -3,6 +3,12 @@
 A collection of gameplay systems developed for a mobile game prototype, focused on creating a modular in-game character shop and a configurable player life management system.
 The systems were designed as reusable gameplay modules that can be integrated into different projects and gameplay loops.
 
+## Repository Structure
+
+- **MediaContent** - visual materials showcasing the implemented systems, including UI and Inspector screenshots, as well as demonstration videos.
+- **Scripts** - C# scripts related to the implemented systems.
+- **UI Toolkit** - scripts used to build the UI components with Unity UI Toolkit, including UXML and USS files.
+
 ## Used Technologies:
 
 - Unity / C#
